@@ -21,7 +21,7 @@ public class TestGrid {
 			  desiredCapabilities=new DesiredCapabilities().firefox();
 		 }else {
 			 desiredCapabilities=new DesiredCapabilities().chrome(); 
-		 }
+		 }   
 		
 		WebDriver webDriver=new RemoteWebDriver(new URL(url+"/wd/hub"), desiredCapabilities);
 		webDriver.get("http://www.baidu.com");
